@@ -59,9 +59,15 @@ class Set(object):
 
 	def addCardToSet(self, card):
 		# if set is complete, set it complete
+		self._add
+		self._set
+		self._card
 		pass
 
 	def removeCardFromSet(self,index=False):
+		self._index
+		self._remove
+		self._card
 		pass
 
 	def isComplete(self):
@@ -87,14 +93,23 @@ class Hand(object):
 	def __init__(self):
 		# Wes
 		self._hand = []
+		self._complete = False
 
 	def addCardToHand(self, card):
-		pass
+		self._add
+		self._addcard
+	pass
 
 	def removeCardFromHand(self, index):
+		self._index
+		self._remove
+		self._removecard
 		pass
 
 	def count(self):
+		#counting cards
+		self._count
+		
 		pass
 
 class Player(object):

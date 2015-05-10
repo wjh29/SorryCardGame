@@ -65,13 +65,27 @@ class Set(object):
 		pass
 
 	def isComplete(self):
-		pass
+		if sum(self._set) + card = 15
+			return True
+		if sum(self._set) + card < 15
+			return False
+			
+		
+		
 
 	def isSafe(self):
-		pass
+		if safe(self._set) == safe
+			return True
+		if safe(self._set) not 
+			return False
+		
 
 	def isEmpty(self):
-		pass
+		if empty(self._set) == empty
+			return True
+		if empty(self._set) not
+			return False
+		
 
 	def testCard(self,card):
 		if sum(self._set) + card < 16:
